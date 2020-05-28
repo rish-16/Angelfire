@@ -15,7 +15,6 @@ Context Menus are what show up when you right-click something on a webpage. It u
 <img src="assets/context-menu.png" alt="c-menu" width="300px">
 
 <br>
-<br>
 
 `Angelfire` lets you *hijack* this context menu and add in your own options instead.
 
