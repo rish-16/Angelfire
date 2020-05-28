@@ -15,7 +15,9 @@ A context menu is what shows up when you right-click something on a webpage. It 
 
 <img src="assets/context-menu.png" alt="c-menu" width="300px">
 
-`Angelfire` lets you *hijack* this context menu and add in your own options instead.
+`Angelfire` lets you *hijack* this context menu and add in your own options instead. 
+
+Nowadays, many apps are using context menus to give users additional functionality without adding extra elements to the user interface. With a simple right-click, users have an array of extra options to choose from, improving the user experience by a large margin!
 
 ---
 
