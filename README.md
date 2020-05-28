@@ -114,6 +114,10 @@ var config = {
 			"styles": { // CSS props
 				"color": "royalblue",
 				"background-color": "lightgray"
+			},
+			"onHover": { // on hover event
+				"opacity": 0.5,
+				"color": "gold"
 			}
 		},
 		{
