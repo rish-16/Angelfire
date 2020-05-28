@@ -7,19 +7,19 @@ document.addEventListener("DOMContentLoaded", () => {
 	var config = {
 		"options": [
 		{
-			"name": "Profile",
+			"name": "Add",
 			"event": function() {
 				console.log("Add clicked!")
 			}
 		},
 		{
-			"name": "New Post",
+			"name": "Subtract",
 			"event": function() {
 				console.log("Subtract clicked!")
 			}
 		},
 		{
-			"name": "Settings",
+			"name": "Multiply",
 			"event": function() {
 				console.log("Multiply clicked!")
 			}

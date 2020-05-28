@@ -16,7 +16,22 @@ Angelfire.prototype.addMenu = (element, config) => {
 		menu.style.left = `${left}px`
 		menu.style.top = `${top}px`
 		toggleMenu('show')
-	};
+	}
+	
+	var allOptions = config["options"]
+	var name
+	var func
+		
+	for (var i = 0; i < allOptions.length; i++) {
+		name = allOptions[i]["name"]
+		func = allOptions[i]['event']
+
+		var li = document.createElement("li")
+		li.className = "menu-option"
+		li.textContent = name
+		li.addEventListener("click", func)
+		ul.appendChild(li)
+	}
 	
 	element.addEventListener("contextmenu", (e) => {
 		e.preventDefault()
@@ -26,31 +41,10 @@ Angelfire.prototype.addMenu = (element, config) => {
 		}
 		setPosition(origin)
 		menuVisible = true
-		  
-		var allOptions = config["options"]
 		
-		for (i = 0; i < allOptions.length; i++) {
-			var name = allOptions[i]["name"]
-			var func = allOptions[i]['event']
-
-			var li = document.createElement("li")
-			li.className = "menu-option"
-			li.textContent = name
-			
-			li.addEventListener("click", () => {
-				func()
-				console.log(i, name, func)
-			})			
-			
-			ul.appendChild(li)
-			
-			console.log("Added")
-		}
-	})
-	
-	window.addEventListener("click", e => {
-		if (menuVisible) {toggleMenu("hide")}
-		ul.innerHTML = ""
+		window.addEventListener("click", e => {
+			if (menuVisible) {toggleMenu("hide")}
+		})
 	})
 	
 	menu.appendChild(ul)
