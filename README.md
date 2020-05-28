@@ -1,11 +1,13 @@
 # Angelfire 👼🏻🔥
-Add custom context menus to any webpage element. Submission for NUSHackers OpenHack 2020.
+Add custom context menus to any webpage element
 
 ---
 
 ### What is it?
 
 > `Angelfire` lets you quickly build right-click-enabled context menus and drop-down menus for any element on your webpage. 
+
+***Note**: This is my submission for NUSHackers OpenHack 2020.*
 
 ### Using Angelfire
 
