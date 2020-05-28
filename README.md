@@ -14,25 +14,22 @@
 To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files from the `src` directory and place them in the `head` tag in your markup:
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Page Title</title>
-		
-		<!-- Place the Angelfire assets here -->
-		<link rel="stylesheet" href="angel-styles.css">
-		<script src="angelfire.js"></script>
-		
-		<!-- Your other code -->
-		<script src="app.js"></script>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Title</title>
 	
-	</body>
-		...
-	</body>
-</html>
+	<!-- Place the Angelfire assets here -->
+	<link rel="stylesheet" href="angel-styles.css">
+	<script src="angelfire.js"></script>
+	
+	<!-- Your other code -->
+	<script src="app.js"></script>
+</head>
+
+</body>
+	...
+</body>
 ```
 
 ### Using Angelfire
