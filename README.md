@@ -11,7 +11,7 @@
 
 **What are context menus?**
 
-Context Menus are what show up when you right-click something on a webpage. It usually contains actions that can be performed on the selected element.
+A Context Menus is what shows up when you right-click something on a webpage. It usually contains actions that can be performed on the selected element.
 
 <img src="assets/context-menu.png" alt="c-menu" width="300px">
 
