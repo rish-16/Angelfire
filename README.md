@@ -84,7 +84,6 @@ var config = {
 	"menu-styles": {
 		"backgroundColor": "red",
 		"textColor": "white",
-		"header": "Section 1: " // displays this on top of menu options
 	}
 }
 
