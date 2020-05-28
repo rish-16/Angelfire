@@ -150,7 +150,7 @@ var config = {
 There's still a lot to do with the library. Here are some future plans I have with it:
 
 1. Add sub-menu support
-2. Improve customisability (for `menu-styles`)
+2. Add icon/image support for options
 3. Adding sections in menu
 4. Minify and deploy to CDN
 
