@@ -1,36 +1,35 @@
 document.addEventListener("DOMContentLoaded", () => {
 	console.log("App loaded")
 	
-	var text = document.getElementById("text")
+	var text = document.getElementById("prof-pic")
 	var angelfire = new Angelfire()
 	
 	var config = {
 		"options": [
 		{
-			"name": "Add",
+			"name": "Profile",
 			"event": function() {
 				console.log("Add clicked!")
 			}
 		},
 		{
-			"name": "Subtract",
+			"name": "New Post",
 			"event": function() {
 				console.log("Subtract clicked!")
 			}
 		},
 		{
-			"name": "Multiply",
+			"name": "Settings",
 			"event": function() {
 				console.log("Multiply clicked!")
 			}
-		},
-		{
-			"name": "Divide",
-			"event": function() {
-				console.log("Divide clicked!")
-			}
 		}
-		]
+		],
+		"menu-styles": {
+			"backgroundColor": "red",
+			"textColor": "white",
+			"header": "Options:"
+		}
 	}
 	
 	angelfire.addMenu(text, config)
