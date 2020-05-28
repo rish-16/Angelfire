@@ -79,7 +79,7 @@ var config = {
 
 **Here's a list of all `menu-style` key-value pairs:**
 
-> **ADD LIST**
+> **TODO:** ADD LIST
 
 ### License
 
