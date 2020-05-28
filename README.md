@@ -1,5 +1,6 @@
 <h1 align="center">Angelfire 👼🏻🔥</h1>
 <p align="center">Add custom context menus to any webpage element with minimal coding!</p>
+<p align="center"><i>Submission for <a href="https://openhack.nushackers.org/">NUSHackers OpenHack 2020</a>.</i></p>
 
 ---
 
@@ -7,7 +8,18 @@
 
 > `Angelfire` lets you quickly build right-click-enabled context menus and drop-down menus for any element on your webpage. 
 
-***Note**: This is my submission for [NUSHackers OpenHack 2020](https://openhack.nushackers.org/).*
+**What are context menus?**
+
+Context Menus are what show up when you right-click something on a webpage. It usually contains actions that can be performed on the selected element.
+
+<img src="assets/context-menu.png" alt="c-menu" width="300px">
+
+<br>
+<br>
+
+`Angelfire` lets you *hijack* this context menu and add in your own options instead.
+
+---
 
 ### Using Angelfire
 
@@ -27,6 +39,8 @@ To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files fro
 	<script src="app.js"></script>
 </head>
 ```
+
+---
 
 ### Using Angelfire
 
@@ -59,6 +73,8 @@ angelfire.addMenu(profPic, config) // generate context menu for target element
 It looks something like this:
 
 <img src="assets/demo-pic.jpeg" width="450px" alt="demo-pic">
+
+---
 
 ### Customisability
 
@@ -114,7 +130,7 @@ var config = {
 
 > **ADD LIST**
 
-```
+---
 
 ### TO-DOs
 
@@ -125,6 +141,8 @@ There's still a lot to do with the library. Here are some future plans I have wi
 3. Add styling to individual options
 4. Adding icon/image support to options
 5. Minifiy and deploy to CDN
+
+---
 
 ### License
 
