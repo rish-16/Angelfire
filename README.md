@@ -109,7 +109,7 @@ var config = {
 
 > **Note:** If you want support for more custom styles, leave an issue!
 
-You can also control styles for individual options by adding a `styles` property to the `config` object:
+You can also control styles for individual options by adding the `styles` and `onHover` properties to the options in the `config` object:
 
 ```javascript
 
