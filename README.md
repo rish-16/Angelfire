@@ -84,7 +84,7 @@ It looks something like this:
 var config = {
 	"options": [...], // menu options
 	"menu-styles": {
-		"backgroundColor": "red",
+		"background-color": "red",
 		"textColor": "white",
 	}
 }
