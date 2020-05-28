@@ -1,4 +1,4 @@
-function Angelfire() {}
+var Angelfire = function() {}
 
 Angelfire.prototype.addMenu = (element, config) => {
 	var menu = document.createElement("div")
@@ -20,7 +20,6 @@ Angelfire.prototype.addMenu = (element, config) => {
 	
 	element.addEventListener("contextmenu", (e) => {
 		e.preventDefault()
-		console.log(e.pageX, e.pageY)
 		const origin = {
 			left: e.pageX,
 			top: e.pageY
@@ -30,21 +29,22 @@ Angelfire.prototype.addMenu = (element, config) => {
 		  
 		var allOptions = config["options"]
 		
-		for (var i = 0; i < allOptions.length; i++) {
-		
-			var record = allOptions[i]
-			console.log(record)
+		for (i = 0; i < allOptions.length; i++) {
+			var name = allOptions[i]["name"]
+			var func = allOptions[i]['event']
 
 			var li = document.createElement("li")
 			li.className = "menu-option"
-			li.textContent = record["name"]
-			li.id = `option-${i}`
+			li.textContent = name
 			
-			li.onclick = () => {
-				record["onTrigger"]()
-			}
+			li.addEventListener("click", () => {
+				func()
+				console.log(i, name, func)
+			})			
 			
 			ul.appendChild(li)
+			
+			console.log("Added")
 		}
 	})
 	

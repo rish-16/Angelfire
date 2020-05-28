@@ -8,20 +8,26 @@ document.addEventListener("DOMContentLoaded", () => {
 		"options": [
 		{
 			"name": "Add",
-			"onTrigger": function() {
-				alert("Add clicked!")
-			}
-		},
-		{
-			"name": "Delete",
-			"onTrigger": function() {
-				alert("Delete clicked!")
+			"event": function() {
+				console.log("Add clicked!")
 			}
 		},
 		{
 			"name": "Subtract",
-			"onTrigger": function() {
-				alert("Subtract clicked!")
+			"event": function() {
+				console.log("Subtract clicked!")
+			}
+		},
+		{
+			"name": "Multiply",
+			"event": function() {
+				console.log("Multiply clicked!")
+			}
+		},
+		{
+			"name": "Divide",
+			"event": function() {
+				console.log("Divide clicked!")
 			}
 		}
 		]
