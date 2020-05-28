@@ -71,7 +71,7 @@ var config = {
 	"menu-styles": {
 		"backgroundColor": "red",
 		"textColor": "white",
-		"header": "Options:" // displays this on-top of menu
+		"header": "Section 1: " // displays this on top of menu options
 	}
 }
 
