@@ -1,0 +1,31 @@
+.menu {
+	font-family: Avenir Next;
+    min-width: 150px;
+    width: auto;
+    z-index: 1000;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.menu-options {
+	list-style: none;
+	padding: 5px 0;
+	z-index: 1;
+}
+
+.menu-option {
+	font-weight: 500;
+	z-index: 1;
+	font-size: 14px;
+	padding: 10px 40px 10px 20px;
+	cursor: pointer;
+}
+
+.menu-option:hover {
+	background: rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
