@@ -1,6 +1,18 @@
 var Angelfire = function() {}
 
+function makeid(length) {
+	var result = '';
+	var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	var charactersLength = characters.length;
+	for ( var i = 0; i < length; i++ ) {
+	   result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	return result;
+ }
+
 Angelfire.prototype.addMenu = (element, config) => {
+	var styleContainer = document.getElementsByTagName('style')[0]
+	
 	var menu = document.createElement("div")
 	menu.className = "menu"
 	var menuVisible = false
@@ -30,6 +42,35 @@ Angelfire.prototype.addMenu = (element, config) => {
 		li.className = "menu-option"
 		li.textContent = name
 		li.addEventListener("click", func)
+		var liID = makeid(5)
+		li.id = liID
+		
+		if (allOptions[i]['styles'] != undefined) {
+			var liStyles = allOptions[i]['styles']
+			for (key in liStyles) {
+				styleContainer.innerHTML += `
+					.menu .menu-options #${liID} {
+						${key}: ${liStyles[key]};
+					}
+				`	
+			}
+		}
+		
+		if (allOptions[i]['onHover'] != undefined) {
+			var liHover = allOptions[i]['onHover']
+			var hoverString = ""
+			for (key in liHover) {
+				hoverString += `${key}: ${liHover[key]};\n`
+			}
+			
+			console.log(hoverString)
+			styleContainer.innerHTML += `
+				#${liID}:hover {
+					${hoverString}
+				}
+			`
+		}
+		
 		ul.appendChild(li)
 	}
 	
@@ -50,10 +91,8 @@ Angelfire.prototype.addMenu = (element, config) => {
 	menu.appendChild(ul)
 	
 	var styles = config["menu-styles"]
-	var styleContainer = document.getElementsByTagName('style')[0]
 	
 	for (key in styles) {
-		console.log(key, styles[key])
 		styleContainer.innerHTML += `
 			.menu {
 				${key}: ${styles[key]};

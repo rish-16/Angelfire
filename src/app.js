@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
 			"name": "Add",
 			"event": function() {
 				alert("Add clicked!")
+			},
+			"styles": {
+				"color": "royalblue"
+			},
+			"onHover": {
+				"opacity": 0.5,
+				"background": "none",
+				"transition": "0.5s",
 			}
 		},
 		{
@@ -25,10 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		}
 		],
-		"menu-styles": { // CSS props for menu
-			"background-color": "red",
-			"color": "white",
-		}
 	}
 	
 	angelfire.addMenu(text, config)

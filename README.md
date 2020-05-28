@@ -135,10 +135,8 @@ There's still a lot to do with the library. Here are some future plans I have wi
 
 1. Add sub-menu support
 2. Improve customisability (for `menu-styles`)
-3. Add styling to individual options
-4. Adding icon/image support to options
-5. Adding sections in menu
-6. Minifiy and deploy to CDN
+3. Adding sections in menu
+4. Minifiy and deploy to CDN
 
 ---
 
