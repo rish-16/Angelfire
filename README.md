@@ -130,7 +130,7 @@ var config = {
 		{
 			"name": "Settings",
 			"event": function() {...},
-			"styles": { 
+			"styles": { // anything you can do with markup text, you can do here!
 				"color": "rebeccapurple",
 				"font-size": "15px",
 				"font-weight": 600
@@ -141,10 +141,6 @@ var config = {
 }
 
 ```
-
-**Here's a list of all valid `styles` properties you can control:**
-
-> **ADD LIST**
 
 > **Note:** If you want support for more custom styles, leave an [issue](https://github.com/rish-16/Angelfire/issues)!
 
