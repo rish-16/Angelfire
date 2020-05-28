@@ -67,7 +67,7 @@ It looks something like this:
 ```javascript
 
 var config = {
-	"options": [], // menu options
+	"options": [...], // menu options
 	"menu-styles": {
 		"backgroundColor": "red",
 		"textColor": "white",
@@ -77,9 +77,44 @@ var config = {
 
 ```
 
-**Here's a list of all the `menu-style` properties you can control:**
+**Here's a list of all valid `menu-styles` properties you can control:**
 
 > **ADD LIST**
+
+You can also control styles for individual options by adding a `styles` property to the `config` object:
+
+```javascript
+
+var config = {
+	"options": [
+		{
+			"name": "Profile",
+			"event": function() {...},
+			"styles": { // CSS props
+				"color": "royalblue",
+				"background-color": "lightgray"
+			}
+		},
+		{
+			"name": "Settings",
+			"event": function() {...},
+			"styles": { 
+				"color": "rebeccapurple",
+				"font-size": "15px",
+				"font-weight": 600
+			}
+		}
+	],
+	"menu-styles": {...}
+}
+
+```
+
+**Here's a list of all valid `styles` properties you can control:**
+
+> **ADD LIST**
+
+```
 
 ### TO-DOs
 
@@ -88,7 +123,8 @@ There's still a lot to do with the library. Here are some future plans I have wi
 1. Add sub-menu support
 2. Improve customisability (for `menu-styles`)
 3. Add styling to individual options
-4. Minifiy and deploy to CDN
+4. Adding icon/image support to options
+5. Minifiy and deploy to CDN
 
 ### License
 

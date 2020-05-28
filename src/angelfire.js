@@ -48,5 +48,18 @@ Angelfire.prototype.addMenu = (element, config) => {
 	})
 	
 	menu.appendChild(ul)
+	
+	var styles = config["menu-styles"]
+	var styleContainer = document.getElementsByTagName('style')[0]
+	
+	for (key in styles) {
+		console.log(key, styles[key])
+		styleContainer.innerHTML += `
+			.menu {
+				${key}: ${styles[key]};
+			}
+		`	
+	}
+	
 	document.body.appendChild(menu)
 }

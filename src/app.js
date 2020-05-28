@@ -25,10 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		}
 		],
-		"menu-styles": {
-			"backgroundColor": "red",
-			"textColor": "white",
-			"header": "Options:"
+		"menu-styles": { // CSS props for menu
+			"background-color": "red",
+			"color": "white",
 		}
 	}
 	
