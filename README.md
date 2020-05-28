@@ -139,7 +139,7 @@ var config = {
 
 > **ADD LIST**
 
-> **Note:** If you want support for more custom styles, leave an issue!
+> **Note:** If you want support for more custom styles, leave an [issue](https://github.com/rish-16/Angelfire/issues)!
 
 ---
 
@@ -150,7 +150,7 @@ There's still a lot to do with the library. Here are some future plans I have wi
 1. Add sub-menu support
 2. Improve customisability (for `menu-styles`)
 3. Adding sections in menu
-4. Minifiy and deploy to CDN
+4. Minify and deploy to CDN
 
 ---
 
