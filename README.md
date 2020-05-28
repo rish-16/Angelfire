@@ -9,9 +9,9 @@
 
 > `Angelfire` lets you quickly build right-click-enabled context menus and drop-down menus for any element on your webpage. 
 
-**What are context menus?**
+**What Are Context Menus?**
 
-A Context Menus is what shows up when you right-click something on a webpage. It usually contains actions that can be performed on the selected element.
+A context menu is what shows up when you right-click something on a webpage. It usually contains actions that can be performed on the selected element.
 
 <img src="assets/context-menu.png" alt="c-menu" width="300px">
 
@@ -19,7 +19,7 @@ A Context Menus is what shows up when you right-click something on a webpage. It
 
 ---
 
-### Using Angelfire
+### Setting Up Angelfire
 
 To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
 
