@@ -75,7 +75,7 @@ It looks something like this:
 
 ### Customisability
 
-`Angelfire` allows you to create fully-customisable context menus using. In your `config` object, you can specify the key `menu-styles`:
+`Angelfire` allows you to create fully-customisable context menus. In your `config` object, you can specify the key `menu-styles`:
 
 ```javascript
 
