@@ -9,19 +9,19 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			"name": "Add",
 			"event": function() {
-				console.log("Add clicked!")
+				alert("Add clicked!")
 			}
 		},
 		{
 			"name": "Subtract",
 			"event": function() {
-				console.log("Subtract clicked!")
+				alert("Subtract clicked!")
 			}
 		},
 		{
 			"name": "Multiply",
 			"event": function() {
-				console.log("Multiply clicked!")
+				alert("Multiply clicked!")
 			}
 		}
 		],
