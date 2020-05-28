@@ -1,4 +1,5 @@
 <img align="center" src="assets/logo.jpg" alt="logo">
+
 ---
 
 <p align="center">Add custom context menus to any webpage element with minimal coding!</p>
