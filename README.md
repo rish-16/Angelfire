@@ -79,7 +79,16 @@ var config = {
 
 **Here's a list of all the `menu-style` properties you can control:**
 
-> **TODO:** ADD LIST
+> **ADD LIST**
+
+### TO-DOs
+
+There's still a lot to do with the library. Here are some future plans I have with it:
+
+1. Add sub-menu support
+2. Improve customisability (for `menu-styles`)
+3. Add styling to individual options
+4. Minifiy and deploy to CDN
 
 ### License
 
