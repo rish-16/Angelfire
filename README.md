@@ -23,13 +23,9 @@ To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files fro
 	<link rel="stylesheet" href="angel-styles.css">
 	<script src="angelfire.js"></script>
 	
-	<!-- Your other code -->
+	<!-- Your other imports -->
 	<script src="app.js"></script>
 </head>
-
-</body>
-	...
-</body>
 ```
 
 ### Using Angelfire
