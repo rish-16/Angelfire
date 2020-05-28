@@ -1,6 +1,7 @@
 <h1 align="center">Angelfire 👼🏻🔥</h1>
 <p align="center">Add custom context menus to any webpage element with minimal coding!</p>
-<p align="center"><i>Submission for <a href="https://openhack.nushackers.org/">NUSHackers OpenHack 2020</a>.</i></p>
+<p align="center"><strong>Made by <a target="blank_" href="http://rish-16.github.io/">Rishabh Anand</a></strong></p>
+<p align="center"><i>Submission for <a target="blank_" href="https://openhack.nushackers.org/">NUSHackers OpenHack 2020</a>.</i></p>
 
 ---
 
