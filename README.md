@@ -1,5 +1,5 @@
-# Angelfire 👼🏻🔥
-Add custom context menus to any webpage element
+<h1 align="center">Angelfire 👼🏻🔥</h1>
+<p align="center">Add custom context menus to any webpage element with minimal coding!</p>
 
 ---
 
