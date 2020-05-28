@@ -37,6 +37,8 @@ To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files fro
 </head>
 ```
 
+> **Note:** Add the `Angelfire` assets before your main JavaScript/CSS code
+
 ---
 
 ### Using Angelfire
