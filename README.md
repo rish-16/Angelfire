@@ -92,14 +92,14 @@ var config = {
 
 **Here's a list of all valid `menu-styles` properties you can control:**
 
-| Property            | Description               | Default \(if any\)                                |
+| Property            | Description               | Default (if any)                                  |
 |---------------------|---------------------------|---------------------------------------------------|
-| `background\-color  | Background color of menu  | `white`                                           |
+| `background-color`  | Background color of menu  | `white`                                           |
 | `color`             | Colour of all options     | `black`                                           |
 | `border`            | Adjust border around menu | `none`                                            |
-| `border\-radius`    | Border curvature of menu  | `7px`                                             |
-| `width`             | Width of menu             | Minimum `150px`; Auto\-adjusting based on content |
-| `box\-shadow`       | Shadow under menu         | `1px 1px 5px rgba\(0, 0, 0, 0\.2\)`               |
+| `border-radius`     | Border curvature of menu  | `7px`                                             |
+| `width`             | Width of menu             | Minimum `150px`; Auto-adjusting based on content  |
+| `box-shadow`        | Shadow under menu         | `1px 1px 5px rgba(0, 0, 0, 0.2)`                  |
 
 > **Note:** If you want support for more custom styles, leave an issue!
 
