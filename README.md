@@ -21,7 +21,7 @@ Context Menus are what show up when you right-click something on a webpage. It u
 
 ### Using Angelfire
 
-To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files from the `src` directory and place them in the `head` tag in your markup:
+To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
 
 ```html
 <head>
