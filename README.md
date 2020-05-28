@@ -77,7 +77,7 @@ var config = {
 
 ```
 
-**Here's a list of all the `menu-style`properties you can control:**
+**Here's a list of all the `menu-style` properties you can control:**
 
 > **TODO:** ADD LIST
 
