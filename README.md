@@ -3,6 +3,11 @@
 <p align="center">Add custom context menus to any webpage element with minimal coding!!!</p>
 <p align="center"><strong>Made by <a target="blank_" href="http://rish-16.github.io/">Rishabh Anand</a> for <a target="blank_" href="https://openhack.nushackers.org/">NUS Hackers OpenHack 2020</a></strong></p>
 
+<p align="center">
+	<img src="https://img.shields.io/badge/size-2.5%20KB-1dd1a1.svg">
+	<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-1dd1a1.svg"></a>
+</p>
+
 ---
 
 ### What is it?
@@ -25,7 +30,7 @@ Nowadays, many apps are using context menus to give users additional functionali
 
 ### Setting Up Angelfire
 
-To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
+To use `Angelfire`, download the minified `angelfire.js` and `angel-styles.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
 
 ```html
 <head>
@@ -34,8 +39,8 @@ To use `Angelfire`, download the `angelfire.js` and `angel-styles.css` files fro
 	<title>Page Title</title>
 	
 	<!-- Place the Angelfire assets here -->
-	<link rel="stylesheet" href="angel-styles.css">
-	<script src="angelfire.js"></script>
+	<link rel="stylesheet" href="angel-styles.min.css">
+	<script src="angelfire.min.js"></script>
 	
 	<!-- Your other imports -->
 	<script src="app.js"></script>
