@@ -10,7 +10,7 @@ function makeid(length) {
 	return result;
  }
 
-Angelfire.prototype.addMenu = (element, config) => {
+Angelfire.prototype.addMenu = function(element, config) {
 	var styleContainer = document.getElementsByTagName('style')[0]
 	
 	var menu = document.createElement("div")
