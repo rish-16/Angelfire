@@ -20,11 +20,11 @@ Angelfire.prototype.addMenu = function(element, config) {
 	var ul = document.createElement("ul")
 	ul.className = "menu-options"
 	
-	const toggleMenu = command => {
+	const toggleMenu = function(command) {
 		menu.style.display = command === "show" ? "block" : "none"
 	}
 	
-	const setPosition = ({ top, left }) => {
+	const setPosition = function({ top, left }) {
 		menu.style.left = `${left}px`
 		menu.style.top = `${top}px`
 		toggleMenu('show')
@@ -74,7 +74,7 @@ Angelfire.prototype.addMenu = function(element, config) {
 		ul.appendChild(li)
 	}
 	
-	element.addEventListener("contextmenu", (e) => {
+	element.addEventListener("contextmenu", function(e) {
 		e.preventDefault()
 		const origin = {
 			left: e.pageX,
@@ -83,7 +83,7 @@ Angelfire.prototype.addMenu = function(element, config) {
 		setPosition(origin)
 		menuVisible = true
 		
-		window.addEventListener("click", e => {
+		window.addEventListener("click", function(e) {
 			if (menuVisible) {toggleMenu("hide")}
 		})
 	})
