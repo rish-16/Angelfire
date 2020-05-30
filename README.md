@@ -12,7 +12,9 @@
 
 ### What is it?
 
-> `Angelfire` lets you quickly build right-click-enabled context menus and drop-down menus for any element on your webpage. 
+> `Angelfire` lets you quickly build right-click-enabled context menus and drop-down menus for any element on your webpage.
+
+Check it out on the [demo page](https://af-demo.netlify.app/).
 
 **What Are Context Menus?**
 
@@ -30,7 +32,7 @@ Nowadays, many apps are using context menus to give users additional functionali
 
 ### Setting Up Angelfire
 
-To use `Angelfire`, download the minified `angelfire.js` and `angel-styles.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
+To use `Angelfire`, download the minified `angelfire.min.js` and `angel-styles.min.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
 
 ```html
 <head>
