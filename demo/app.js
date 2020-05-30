@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
 	console.log("App loaded")
 	
-	var text = document.getElementById("prof-pic")
+	var img = document.getElementById("prof-pic")
+	const text = document.getElementById("text")
+	
 	var angelfire = new Angelfire()
 	
 	var config = {
 		"options": [
 		{
-			"name": "Add",
+			"name": "Profile",
 			"event": function() {
-				alert("Add clicked!")
+				alert("Profile clicked!")
 			},
 			"styles": {
 				"color": "royalblue"
@@ -21,19 +23,49 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		},
 		{
-			"name": "Subtract",
+			"name": "New Post",
 			"event": function() {
-				alert("Subtract clicked!")
+				alert("New Post clicked!")
 			}
 		},
 		{
-			"name": "Multiply",
+			"name": "Settings",
 			"event": function() {
-				alert("Multiply clicked!")
+				alert("Settings clicked!")
 			}
 		}
 		],
 	}
 	
-	angelfire.addMenu(text, config)
+	var config2 = {
+		"options": [
+		{
+			"name": "Copy",
+			"event": function() {
+				alert("Copy text")
+			}
+		},
+		{
+			"name": "Delete",
+			"event": function() {
+				alert("Delete text")
+			}
+		},
+		{
+			"name": "Colour",
+			"event": function() {
+				alert("Choose colour")
+			}
+		},
+		{
+			"name": "Duplicate",
+			"event": function() {
+				alert("Duplicate text")
+			}
+		}
+		]
+	}
+	
+	angelfire.addMenu(img, config)
+	angelfire.addMenu(text, config2)
 })

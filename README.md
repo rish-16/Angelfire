@@ -168,6 +168,7 @@ There's still a lot to do with the library. Here are some future plans I have wi
 
 - Create `demo` directory with hosted demo site
 - Add sub-menu support
+- Key-press option selection
 - Add icon/image support for options
 - Adding sections in menu
 - Deploy to CDN

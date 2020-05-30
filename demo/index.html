@@ -6,8 +6,11 @@
 		<title>Angelfire | Demo</title>
 		
 		<!-- import Angelfire assets first -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angel-styles.min.css">
-		<script src="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angelfire.min.js"></script>
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angel-styles.min.css"> -->
+		<!-- <script src="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angelfire.min.js"></script> -->
+		
+		<link rel="stylesheet" href="../src/angel-styles.css">
+		<script src="../src/angelfire.js"></script>
 		
 		<!-- add other imports next -->
 		<script src="app.js"></script>
@@ -19,25 +22,7 @@
 		}
 		
 		#text {
-			width: 80px;
-			height: 45px;
-			color: white;
-			background-color: #1dd1a1;
-			border-radius: 7px;
-			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-			border: none;
-			font-family: Avenir Next;
 			font-size: 16px;
-			font-weight: 700;
-		}
-		
-		#text:focus {
-			outline: none
-		}
-		
-		#text:hover {
-			opacity: 0.5;
-			transition: 0.5s;
 		}
 		
 		#prof-pic {
@@ -53,5 +38,9 @@
 	<body>
 		<p>Right click the image below:</p>
 		<img id="prof-pic" src="https://api.there.pm/rest/twivatar/rishabh16_" alt="img">
+		
+		<br>
+		
+		<p id="text">This is some text</p>
 	</body>
 </html>
