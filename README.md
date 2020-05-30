@@ -32,7 +32,7 @@ Nowadays, many apps are using context menus to give users additional functionali
 
 ### Setting Up Angelfire
 
-To use `Angelfire`, download the minified `angelfire.min.js` and `angel-styles.min.css` files from the `src` directory into your project's and import them in the `head` tag of your markup:
+To use `Angelfire`, add the CDN links to your `head` tag of your markup:
 
 ```html
 <head>
@@ -41,13 +41,15 @@ To use `Angelfire`, download the minified `angelfire.min.js` and `angel-styles.m
 	<title>Page Title</title>
 	
 	<!-- Place the Angelfire assets here -->
-	<link rel="stylesheet" href="angel-styles.min.css">
-	<script src="angelfire.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angel-styles.min.css">
+	<script src="https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angelfire.min.js"></script>
 	
 	<!-- Your other imports -->
 	<script src="app.js"></script>
 </head>
 ```
+
+Or, you can download the minified `angelfire.min.js` and `angel-styles.min.css` files from the `src` directory into your project's and import them as local files in your `head` tag.
 
 > **Note:** Add the `Angelfire` assets before your main JavaScript/CSS code
 
