@@ -34,6 +34,13 @@ Nowadays, many apps are using context menus to give users additional functionali
 
 To use `Angelfire`, add the CDN links to your `head` tag of your markup:
 
+```
+https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angel-styles.min.css
+https://cdn.jsdelivr.net/gh/rish-16/Angelfire/src/angelfire.min.js
+```
+
+<br>
+
 ```html
 <head>
 	<meta charset="UTF-8">
