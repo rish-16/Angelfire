@@ -2,6 +2,7 @@
 
 <p align="center">Add custom context menus to any webpage element with minimal coding!!!</p>
 <p align="center"><strong>Made by <a target="blank_" href="http://rish-16.github.io/">Rishabh Anand</a> for <a target="blank_" href="https://openhack.nushackers.org/">NUS Hackers OpenHack 2020</a></strong></p>
+<p align="center">🏆 Winning Submission</p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/size-2.5%20KB-1dd1a1.svg">
