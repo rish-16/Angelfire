@@ -171,7 +171,6 @@ There's still a lot to do with the library. Here are some future plans I have wi
 - Key-press option selection
 - Add icon/image support for options
 - Adding sections in menu
-- Deploy to CDN
 
 ---
 
